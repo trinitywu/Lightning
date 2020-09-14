@@ -13,9 +13,9 @@ void setup()
 void draw()
 {
   
-  PImage img;
-  img = loadImage("totoro.png");
-  image(img, 0, 0);
+  noStroke();
+  fill(255, 255, 255, 15);
+  rect(0, 0, 860, 643);
   stroke((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256));
 
    endY = startY + (int)(Math.random()*30);
